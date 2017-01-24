@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+    <title>Populist</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- jQuery stylesheet-->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <!-- adobe typekit fonts-->
+    <script src="https://use.typekit.net/qhc1qoc.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!--font awesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
+    <!-- Stylesheets -->
+    <link href="stylesheet.css" rel="stylesheet">
+</head>
+
+
+<body class="home">
+
+<div class="iphone col-lg-4 col-lg-offset-4 col-sm-8 col-sm-offset-2 col-xs-12">
+    <div class="container-fluid">
+        <div class="col-xs-12" id="frame">
+<!--HEADER-->
+            <div id="header" class="col-xs-12">
+                <div id="header-left" class="col-xs-2">
+                    <div class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Your profile</a></li>
+                            <li><a href="#">Settings</a></li>
+                            <li><a href="#">Sign out</a></li>
+                        </ul>
+                    </div><!--dropdown-->
+                </div><!--header left-->
+                <div id="header-right" class="col-xs-10">
+                    <input type="text" class="form-control" placeholder="Search Populists">
+                </div><!--header-right-->
+            </div><!--header-->
+<!--END HEADER-->
+
+<!-- MAIN CONTENT -->
+            <div class="col-xs-12 populist">
+                <div class="populist-header col-xs-12">
+                    <p class="list_title">Backcountry Camping</p>
+                    <p class="contributor-count">3,447 contributors</p>
+                    <div id="select-all" class="col-xs-12">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="select-all-dropdown">
+                            <span class="caret" id="select-top-caret"></span>
+                            <p>Select...</p>
+                        </button>
+                        <ul class="dropdown-menu" id="select-top-drowpdown-ul">
+                            <li><a href="#">Top 10</a></li>
+                            <li><a href="#">Top 25</a></li>
+                            <li><a href="#">Top 50</a></li>
+                            <li><a href="#">Top 100</a></li>
+                        </ul>
+                    </div><!--select all-->
+                </div><!--populist-header-->
+
+
+                <div class="col-xs-12" id="populist-items-overflow">
+                    <ul class="populist_ul">
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tent</input><div class="rank">99%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Sleeping bag</input><div class="rank">94%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Lighter</input><div class="rank">89%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Sleeping pad</input><div class="rank">87%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tarp</input><div class="rank">61%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Stove</input></input><div class="rank">77%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tent</input><div class="rank">99%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tent</input><div class="rank">99%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Sleeping bag</input><div class="rank">94%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Lighter</input><div class="rank">89%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Sleeping pad</input><div class="rank">87%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tarp</input><div class="rank">61%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Stove</input><div class="rank">77%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tent</input><div class="rank">99%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tent</input><div class="rank">99%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Sleeping bag</input><div class="rank">94%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Lighter</input><div class="rank">89%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Sleeping pad</input><div class="rank">87%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tarp</input><div class="rank">61%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Stove</input><div class="rank">77%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tent</input><div class="rank">99%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tent</input><div class="rank">99%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Sleeping bag</input><div class="rank">94%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Lighter</input><div class="rank">89%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Sleeping pad</input><div class="rank">87%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tarp</input><div class="rank">61%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Stove</input><div class="rank">77%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tent</input><div class="rank">99%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tent</input><div class="rank">99%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Sleeping bag</input><div class="rank">94%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Lighter</input><div class="rank">89%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Sleeping pad</input><div class="rank">87%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tarp</input><div class="rank">61%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Stove</input><div class="rank">77%</div></li>
+                        <li class="populist_li"><input type="checkbox" class="checkbox" id="populist-item-check" onclick="return addFromPopulist()">Tent</input><div class="rank">99%</div></li>
+                    </ul><!--populist_ul-->
+                </div><!--populist items overflow-->
+
+                <div class="populist_footer col-xs-12">
+                    <div class="copy-items-row">
+                        <a href="#">
+                            <button class="copy-button copy-to-new" type="submit" id="fork">Copy to new list</button>
+                        </a>
+                        <a href="selectlist.html">
+                            <button class="copy-button copy-to-saved" type="submit">Copy to saved list</button>
+                        </a>
+                    </div>
+                </div><!--populist_footer-->
+            </div><!--populist-->
+
+
+
+
+<!-- NAV FOOTER -->
+            <div id="nav-footer" class="col-xs-12">
+                <a href="index.html">
+                    <div id="home" class="col-xs-4 footer-button">
+                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                        <p>Home</p>
+                    </div><!--home-->
+                </a>
+                <a href="mylists.html">
+                    <div id="my-lists" class="col-xs-4 footer-button">
+                        <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                        <p>My Lists</p>
+                    </div><!--home-->
+                </a>
+                <a href="cart.html">
+                    <div id="cart" class="col-xs-4 footer-button">
+                        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                        <p>Cart</p>
+                    </div><!--home-->
+                </a>
+            </div><!--nav footer-->
+        </div><!--frame-->
+
+
+
+    </div><!--container fluid-->
+    <div id="home-button" class="col-xs-2 col-xs-offset-5"></div>
+</div><!--iphone-->
+
+
+<!--jquery and jquery ui-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.4/jquery-ui.min.js"></script>
+<!--bootstrap js-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="javascript.js"></script>
+<script>
+$('.dropdown-toggle').dropdown()
+</script>
+<!--navite js-->
+<script src="javascript.js"></script>
+</body>
+</html>
